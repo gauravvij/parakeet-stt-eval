@@ -1,0 +1,18 @@
+{
+  "model_id": "nvidia/parakeet-tdt-0.6b-v3 (ONNX via onnx-asr)",
+  "engine": "onnx-asr (ONNX Runtime CPU)",
+  "model_type": "parakeet-tdt-0.6b-v3",
+  "quantization": "FP32 (default ONNX export)",
+  "audio_file": "/home/azureuser/stt_eval_ccneo/test_audio.wav",
+  "audio_duration_sec": 16.78,
+  "reference_text": "The stale smell of old beer lingers. It takes heat to bring out the odor. A cold dip restores health and zest. A salt pickle tastes fine with ham. Tacos al pastor are my favorite. A zestful food is the hot cross bun.",
+  "transcription": "The stale smell of old beer lingers. It takes heat to bring out the odor. A cold deep restores health and zest. A salt pickle tastes fine with ham. Tacos al pasta are my favorite. A zestful food is the hot cross bun.",
+  "load_time_sec": 86.29,
+  "latency_sec": 5.5,
+  "rtf": 0.3281,
+  "wer": 0.0465,
+  "cer": 0.019,
+  "peak_cpu_percent": 49.9,
+  "peak_memory_mb": 2666.9,
+  "avg_cpu_percent": 72.0
+}

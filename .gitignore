@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.gguf
+*.bin
+*.pt
+*.ckpt
+models/
+parakeet.cpp/
+Eval-STT/
+.env
+*.egg-info/
+dist/
+build/
+.DS_Store

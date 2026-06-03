@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "model": "parakeet-tdt-0.6b-v3-hf",
+      "status": "success",
+      "wer": 0.2093,
+      "rtf": 0.5188,
+      "latency_s": 8.597,
+      "cpu_memory_mb": 430.0,
+      "gpu_memory_mb": 0.0,
+      "speed": 1.93,
+      "loading_time_s": 11.02,
+      "transcription": "the stale smell of old beer lingers. it takes heat to bring out the odor. a cold dip restores health and mest. a salt pickle tastes fine with ham. taco mel pastor are my favorite. a nestful food is the hot cross bun."
+    },
+    {
+      "model": "parakeet-tdt-0.6b-v3-gguf-q4k",
+      "status": "success",
+      "wer": 0.2093,
+      "rtf": 0.7974,
+      "latency_s": 13.214,
+      "cpu_memory_mb": 0.0,
+      "gpu_memory_mb": 0.0,
+      "speed": 1.25,
+      "loading_time_s": 0.0,
+      "transcription": "the stale smell of old beer lingers. it takes heat to bring out the odor. a cold dip restores health and mess. a salt pickle tastes fine with ham. taco mel pastor are my favorite. a nestful food is the hot cross bun."
+    }
+  ]
+}
