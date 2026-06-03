@@ -1,4 +1,4 @@
-# I Ran the Same AI Engineering Task Twice — Once With Claude Code Alone, Once With an AI Agent. The Results Weren't Close.
+# Claude Code + an AI Agent Cut My AI Engineering Costs by 62%. Claude Code Alone Couldn't.
 
 *Same model. Same machine. Same goal. The difference in cost, accuracy, and effort will make you rethink how you approach AI engineering work.*
 
