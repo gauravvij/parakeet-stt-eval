@@ -150,6 +150,9 @@ Generated with **gTTS** (Google Text-to-Speech). Natural-sounding, prosodically 
 
 WER dropped from 20.9% to **4.65%** — not because the models got better, but because the test audio got better. With natural-sounding speech, the models perform the way they actually would in production. This is the number that matters for deployment decisions.
 
+> **Why the WER gap is about audio, not models.**
+> The clearest proof: within each run, both models produced *identical* WER — 20.9% for both in the Claude Code Solo run, 4.65% for both in the Claude Code + Neo run. If quantization or model choice were the variable, you'd expect the numbers to differ between models within the same run. They don't. The variable was the audio generator. espeak-ng mispronounced three specific phrases — "zest" → "mest/mess", "tacos al pastor" → "taco mel pastor", "zestful" → "nestful" — that gTTS rendered correctly. Every percentage point of that 16% WER gap traces back to those three words, not to anything about the approach, the runtime, or the quantization tier.
+
 The ONNX model ran at RTF 0.328 — **37% faster** than the bfloat16 PyTorch path in Run 1 (RTF 0.519) on identical hardware. Better technical decision, measurable outcome.
 
 **Total cost: $0.7448**
