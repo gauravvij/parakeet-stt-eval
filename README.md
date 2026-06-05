@@ -1,5 +1,7 @@
 # Parakeet STT Evaluation — Claude Code Solo vs Claude Code + Neo
 
+[![Made with Neo MCP + Claude Code](https://img.shields.io/badge/Made%20with-Neo%20MCP%20%2B%20Claude%20Code-6C63FF?style=for-the-badge&logo=sparkles&logoColor=white)](https://heyneo.so)
+
 A real-world benchmark comparing two AI engineering workflows on the same task:
 evaluating [`nvidia/parakeet-tdt-0.6b-v3`](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3)
 vs [`mudler/parakeet-cpp-gguf`](https://huggingface.co/mudler/parakeet-cpp-gguf)
